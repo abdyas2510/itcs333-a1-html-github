@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdulla Yasser — Home</title>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+  <header>
+    <span class="site-title">Abdulla Yasser</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="profile-header">
+      <img src="assets/avatar.png" alt="Profile avatar of Abdulla Yasser" />
+      <div>
+        <h1>Abdulla "Kaizaar" Yasser</h1>
+        <p class="tagline">Network Engineering student, University of Bahrain</p>
+      </div>
+    </div>
+
+    <p>
+      I'm a network engineering student at the University of Bahrain, currently in my
+      2026-2027 first semester. I spend most of my time somewhere between coursework
+      and side projects — usually the kind that involve wiring together small systems
+      until they behave. This site is my ITCS333 Assignment 1 submission: a hand-built
+      HTML profile page, put together and pushed through Git the way the course wants
+      us to practice it.
+    </p>
+
+    <h2>What I'm into</h2>
+    <ul>
+      <li>Networking and systems — the actual subject of my degree</li>
+      <li>Automating small annoying tasks instead of doing them by hand</li>
+      <li>Building tools other people end up actually using</li>
+      <li>Anything involving a Raspberry Pi, a head unit, or a microcontroller</li>
+    </ul>
+
+    <p>Read more about my background and this semester on the <a href="about.html">About page</a>.</p>
+  </main>
+
+  <footer>
+    &copy; 2026 Abdulla Yasser — ITCS333 Assignment 1
+  </footer>
 </body>
 </html>
