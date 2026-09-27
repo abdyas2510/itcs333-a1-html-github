@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Abdulla Yasser</title>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+  <header>
+    <span class="site-title">Abdulla Yasser</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="profile-header">
+      <img src="assets/avatar.png" alt="Profile avatar of Abdulla Yasser" />
+      <div>
+        <h1>Abdulla "Kaizaar" Yasser</h1>
+        <p class="tagline">Network Engineering student, University of Bahrain</p>
+      </div>
+    </div>
+
+    <p>
+      I'm in my first semester of the 2026-2027 year, studying network engineering at
+      the University of Bahrain. Most of this page exists because ITCS333 wants us to
+      actually use Git properly instead of zipping a folder and calling it a
+      submission, which is fair.
+    </p>
+
+    <h2>What I'm into</h2>
+    <ul>
+      <li>Networking, obviously (it's the whole degree)</li>
+      <li>Automating stuff I'm too lazy to do twice by hand</li>
+      <li>Building things people actually end up using, not just class demos</li>
+      <li>Head units, mostly, plus whatever microcontroller I can get my hands on that week</li>
+    </ul>
+
+    <p>More about me, and the actual coursework, is on the <a href="about.html">About page</a>.</p>
+  </main>
+
+  <footer>
+    &copy; 2026 Abdulla Yasser
+  </footer>
 </body>
 </html>
