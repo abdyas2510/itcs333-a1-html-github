@@ -1,0 +1,118 @@
+:root {
+	--ink: #1b2430;
+	--muted: #5c6773;
+	--accent: #2f6fed;
+	--bg: #f7f8fa;
+	--card: #ffffff;
+	--border: #e3e6ea;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+	color: var(--ink);
+	background: var(--bg);
+	line-height: 1.6;
+}
+
+header {
+	background: var(--card);
+	border-bottom: 1px solid var(--border);
+	padding: 1rem 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+header .site-title {
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1.25rem;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: var(--ink);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+nav a:hover,
+nav a:focus {
+	color: var(--accent);
+	text-decoration: underline;
+}
+
+main {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 2rem 1.5rem 3rem;
+}
+
+.profile-header {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	margin-bottom: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.profile-header img {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	border: 3px solid var(--card);
+	box-shadow: 0 0 0 1px var(--border);
+}
+
+h1 {
+	margin: 0 0 0.25rem;
+	font-size: 1.8rem;
+}
+
+h2 {
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	color: var(--ink);
+	border-bottom: 2px solid var(--accent);
+	display: inline-block;
+	padding-bottom: 0.15rem;
+}
+
+.tagline {
+	color: var(--muted);
+	margin: 0;
+}
+
+a {
+	color: var(--accent);
+}
+
+ul,
+ol {
+	padding-left: 1.3rem;
+}
+
+li {
+	margin-bottom: 0.4rem;
+}
+
+footer {
+	text-align: center;
+	color: var(--muted);
+	font-size: 0.85rem;
+	padding: 1.5rem;
+	border-top: 1px solid var(--border);
+}
